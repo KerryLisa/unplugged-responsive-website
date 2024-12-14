@@ -87,6 +87,201 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   .content-wrapper {
+    outline: 3px dotted red;
+   }
+
+   /* -------------------- MOBILE STYLES --------------------*/
+
+   /* -------------------- Heder & Footer ------------------ */
+
+   /* Header */
+   
+   header {
+    display: flex;
+    justify-content: center;
+   }
+
+   header .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+   }
+
+   .header-divider {
+
+   }
+
+   header nav {
+
+   }
+
+   header nav ul {
+    display: flex;
+    justify-content: space-around;
+   }
+
+   /* Footer */
+
+   footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+   }
+
+   footer .content-wrapper {
+
+   }
+
+   .footer-content {
+
+   }
+
+   footer .contact {
+
+   }
+
+   footer .social {
+
+   }
+
+   footer .social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+   }
+
+   footer .social-icons p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .copyright {
+
+   }
+
+   /* -------------------- HOMEPAGE Main Sections (Mobile) ------------------ */
+
+
+    /* Hero */
+
+   .hero-area {
+    display: flex;
+    justify-content: center;
+
+   }
+
+   .hero-area .content-wrapper {
+
+   }
+
+   /* Signup */
+
+   aside {
+    display: flex;
+    justify-content: center;
+   }
+
+   aside .content-wrapper {
+
+   }
+
+   aside .form-description {
+
+   }
+
+   aside #form {
+
+   }
+
+   /* Features */
+
+   .features {
+    display: flex;
+    justify-content: center;
+   }
+
+   .features .content-wrapper {
+
+   }
+
+   .features .features-items {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row wrap;
+
+
+   }
+
+   .features p {
+
+   }
+
+   .fontawesom-icons {
+
+   }
+
+   .features-item-description {
+
+   }
+
+   /* Reviews */
+
+   .reviews {
+    display: flex;
+    justify-content: center;
+   }
+
+   .reviews .content-wrapper {
+
+   }
+
+   /* -------------------- ABOUT PAGE Main Sections (Mobile) ------------------ */
+
+   /* Mission */
+
+   .mission {
+    display: flex;
+    justify-content: center;
+   }
+
+   /* Contact */
+
+   .contact-section {
+    display: flex;
+    justify-content: center;
+   }
+
+
+   /* -------------------- FAQ PAGE Main Sections (Mobile) -------------------- */
+
+   /* FAQ */
+
+   .faq {
+    display: flex;
+    justify-content: center;
+   }
+
+   .faq .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row wrap;
+   }
+
+
+   /* ---------------------------- TABLET STYLES ------------------------------*/
+
+
+
+   /* ---------------------------- DESKTOP STYLES ------------------------------*/
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
