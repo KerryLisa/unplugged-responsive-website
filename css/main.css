@@ -89,17 +89,20 @@ textarea {
 
    .content-wrapper {
     outline: 3px dotted red;
+    width: 90%;
+    margin: 50px 0;
    }
 
    /* -------------------- MOBILE STYLES --------------------*/
 
-   /* -------------------- Heder & Footer ------------------ */
+   /* -------------------- Header & Footer ------------------ */
 
    /* Header */
    
    header {
     display: flex;
     justify-content: center;
+    padding: 15px 0;
    }
 
    header .content-wrapper {
@@ -107,40 +110,55 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    margin: 0;
    }
 
    .header-divider {
+    width: 100%;
+    height: 10px;
+    margin: 10px 0 20px 0;
 
    }
 
    header nav {
-
+    width: 60%;
    }
 
    header nav ul {
     display: flex;
     justify-content: space-around;
+    width: 100%;
    }
 
    /* Footer */
 
    footer {
     display: flex;
-    flex-direction: column;
+    //flex-direction: column;
     justify-content: center;
     text-align: center;
 
    }
 
    footer .content-wrapper {
-
+    width: 55%;
+    margin-bottom: 50px;
    }
 
    .footer-content {
 
    }
 
+   .footer h4 {
+    margin: 20px 0;
+   }
+
+   footer p {
+    margin: 0;
+   }
+
    footer .contact {
+    margin-bottom: 50px;
 
    }
 
@@ -162,6 +180,7 @@ textarea {
    }
 
    .copyright {
+    margin: 20px 0;
 
    }
 
@@ -210,16 +229,24 @@ textarea {
 
    }
 
+   .features h2 {
+    margin: 0 0 60px 0;
+   }
+
    .features .features-items {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-flow: row wrap;
+   }
 
-
+   .features article {
+    width: 61%;
+    margin: 30px 0;
    }
 
    .features p {
+    margin: 0 0 40px 0;
 
    }
 
@@ -242,6 +269,17 @@ textarea {
 
    }
 
+   .reviews h2 {
+    margin-bottom: 40px;
+
+   }
+
+   .reviews h3 {
+    width: 52%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+
    /* -------------------- ABOUT PAGE Main Sections (Mobile) ------------------ */
 
    /* Mission */
@@ -256,6 +294,10 @@ textarea {
    .contact-section {
     display: flex;
     justify-content: center;
+   }
+
+   .contact-content p {
+    margin: 0;
    }
 
 
@@ -273,6 +315,15 @@ textarea {
     justify-content: center;
     align-items: flex-start;
     flex-flow: row wrap;
+    margin: 50px 0 0 0;
+   }
+
+   .faq h2 {
+    margin-bottom: 40px;
+   }
+
+   .faq-content {
+    margin-bottom: 50px;
    }
 
 
