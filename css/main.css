@@ -214,7 +214,7 @@ textarea {
 
    }
 
-   aside #form {
+   aside .form {
 
    }
 
@@ -246,11 +246,12 @@ textarea {
    }
 
    .features p {
-    margin: 0 0 40px 0;
+    margin: 0;
 
    }
 
-   .fontawesom-icons {
+   .features p.fontawesom-icons {
+    margin-bottom: 40px;
 
    }
 
@@ -326,12 +327,6 @@ textarea {
     margin-bottom: 50px;
    }
 
-
-   /* ---------------------------- TABLET STYLES ------------------------------*/
-
-
-
-   /* ---------------------------- DESKTOP STYLES ------------------------------*/
 
 /* ==========================================================================
    Helper classes
@@ -421,16 +416,171 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+/* ---------------------------- TABLET STYLES ------------------------------*/
+
+@media only screen and (min-width: 768px) {
+
+/***** HOMEPAGE *****/
+
+.content-wrapper {
+  max-width: 640px;
+  margin: 100px 0;
+  }
+
+/* Header */
+
+header {
+  padding: 33px 0;
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+header .content-wrapper {
+  width: 100%;
+  justify-content: space-between;
 }
+
+.header-divider {
+  display: none;
+}
+
+header nav {
+  width: 20%;
+}
+
+header nav ul {
+  justify-content: space-between;
+}
+
+/* Hero Area */
+
+.hero-area h1 {
+  //width: 81%;
+  }
+
+/* SignUp */
+
+aside .content-wrapper {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  }
+
+aside .form-description, 
+aside .form {
+  width: 40%;
+  margin: 0;
+  }
+
+/* Features */
+
+.features h2 {
+  margin-bottom: 20px;
+}
+
+.features p.fontawesom-icons {
+  margin-bottom: 30px;
+ }
+
+.features article {
+  display: flex;
+  flex-basis: 50%;
+  align-items: center;
+  flex-flow: column wrap;
+  }
+
+.features .features-item-description {
+  width: 50%;
+  }
+
+  .reviews article {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .reviews article div {
+    width: 49%;
+  }
+
+  /* Footer */
+
+  footer .content-wrapper {
+    width: 80%;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+
+  footer .contact {
+    margin-bottom: 0;
+    width: 30%;
+  }
+
+  footer .social {
+    width: 30%;
+  }
+
+  footer .copyright {
+    width: 100%;
+  }
+
+  /* ---------- ABOUT PAGE ---------- */
+
+  /* Mission */
+
+
+  .mission-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 20px;
+  }
+
+  .mission-content p {
+    width: 45%;
+  }
+
+  /* Contact */
+
+  .contact-section .content-wrapper h2 {
+    width: 80%;
+  }
+
+  .contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+  }
+
+  .contact-content div {
+    width: 40%;
+  }
+
+  /* ---------- FAQ PAGE ---------- */
+
+  .faq .content-wrapper {
+    justify-content: space-between;
+  }
+
+  .faq h2 {
+    width: 100%;
+  }
+  
+  .faq-content {
+    flex-basis: 45%;
+  }
+
+
+}
+
+   /* ---------------------------- DESKTOP STYLES ------------------------------*/
+
+@media only screen and (min-width: 1200px) {
+
+  }
+
 
 /* ==========================================================================
    Print styles.
