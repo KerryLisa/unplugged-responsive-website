@@ -243,6 +243,7 @@ textarea {
    .features article {
     width: 61%;
     margin: 30px 0;
+    text-align: center;
    }
 
    .features p {
@@ -420,12 +421,12 @@ textarea {
 
 @media only screen and (min-width: 768px) {
 
-/***** HOMEPAGE *****/
-
 .content-wrapper {
   max-width: 640px;
   margin: 100px 0;
   }
+
+/* ---------- HOMEPAGE ---------- */
 
 /* Header */
 
@@ -453,7 +454,7 @@ header nav ul {
 /* Hero Area */
 
 .hero-area h1 {
-  //width: 81%;
+  width: 80%;
   }
 
 /* SignUp */
@@ -488,9 +489,20 @@ aside .form {
   flex-flow: column wrap;
   }
 
+
 .features .features-item-description {
   width: 50%;
   }
+
+/* Reviews */
+
+.reviews h2 {
+  margin-bottom: 50px;
+}
+
+.reviews h3 {
+  width: 100%;
+}
 
   .reviews article {
     display: flex;
@@ -501,6 +513,7 @@ aside .form {
     width: 49%;
   }
 
+
   /* Footer */
 
   footer .content-wrapper {
@@ -510,7 +523,7 @@ aside .form {
   .footer-content {
     display: flex;
     justify-content:space-between;
-    align-items: center;
+    align-items: flex-start;
   }
 
   footer .contact {
@@ -556,31 +569,99 @@ aside .form {
 
   .contact-content div {
     width: 40%;
+    }
+
+ /* ---------- FAQ PAGE ---------- */
+
+  .faq .content-wrapper {
+    justify-content: space-between;
+    }
+
+  .faq h2 {
+    width: 100%;
+    }
+  
+  .faq-content {
+    flex-basis: 45%;
+    }
+
+}
+
+  /* ---------------------------- DESKTOP STYLES ------------------------------*/
+
+@media only screen and (min-width: 1200px) {
+
+  .content-wraper {
+    max-width: 960px;
+    }
+
+  /* ---------- HOMEPAGE ---------- */
+
+  header {
+    padding: 15px 0;
+    }
+
+  /* Hero Area */
+
+  .hero-area h1 {
+    width: 70%;
+  }
+
+  /* SignUp */
+
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
+
+  aside .content-wrapper .form-description,
+    aside .content-wrapper .form {
+        width: 31%;
+    }
+
+  /* Features */
+
+  .features article {
+    flex-basis: 33.3333%;
+  }
+
+  .features .features-item-description {
+    width: 70%;
+  }
+
+  /* Reviews */
+
+  .reviews article h3,
+  .reviews article p {
+    margin-left: 8%;
+  }
+
+  /* Footer */
+
+  footer .content-wrapper {
+    width: 100%;
+  }
+
+  footer .contact {
+    width: 20%;
+  }
+
+  footer .social {
+    width: 32%;
+  }
+
+  /* ---------- ABOUT PAGE ---------- */
+
+  .mission h2 {
+    width: 88%;
+  }
+
+  .contact-section h2 {
+    width: 83%;
   }
 
   /* ---------- FAQ PAGE ---------- */
 
-  .faq .content-wrapper {
-    justify-content: space-between;
-  }
-
-  .faq h2 {
-    width: 100%;
-  }
-  
-  .faq-content {
-    flex-basis: 45%;
-  }
-
-
 }
-
-   /* ---------------------------- DESKTOP STYLES ------------------------------*/
-
-@media only screen and (min-width: 1200px) {
-
-  }
-
 
 /* ==========================================================================
    Print styles.
